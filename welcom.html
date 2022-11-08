@@ -2,26 +2,45 @@
 <html lang="en">
 
 <head>
-
+    <link rel="stylesheet" href="./style.css" />
     <title>welcome everyone</title>
 </head>
 
 <body>
+    <header>
     <nav>
-        <p>Home</p>
-        <p>About</p>
-        <p>work</p>
-        <p>resume</p>
-        <p>contact</p>
+        <img src="./R (1).jpg"alt="img" width="300" height="300" style="float:right">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">work</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">contact</a>
+        
     </nav>
+    </header>
     <br>
+    <main>
+        <!--this is section 1-->
     <section>
-        <form action="welcom.html" method="get">
-            <h1>home:la soukra</h1>
-            <h2>about:gomycode student</h2>
-            <h3>work:not yet </h3>
-            <h4>resume:full stack developer</h4>
-            <h5>contact:<input type="text" name="contact" </h5>
+        <div>
+            <h1 id="home">Home</h1>
+            <p class="hello">Hello, my name is Tony and I am writing to introduce myself. My interests include coding, art, and music .</p>
+            <h2 id="about">about</h2>
+            <p class="hello">Firstly, I decided myself to become a full stack developer when started playing games in my computer. People around me thought that i was jokin Because they thought how I can become a programmer by playing games, but the truth is that “I started admiring games not by its visuals but by its working and way it evaluates things ,then I made some research on Gomycode . </p>
+            <h3 id="work">work</h3>
+            <p class="hello">In the past i used to work at a bank .</p>
+            <h4 id="resume">resume</h4>
+            <P class="hello">Finally I started practicing to code in Gomycode with HTML,CSS Basics and developed my simple portfolio as one my beginners project containing my basic personal details .</P>
+        </div>
+    </section>
+    <!--this is section2-->
+
+    <section>
+        <form>
+            <h5 class="contact">contact</h5>
+            <label>Username : <input type="text" /></label>
+            <label>Password : <input type="password" /></label>
+            <button type="submit">Submit</button>
         </form>
         <br>
         <br>
@@ -37,14 +56,17 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>html css js</td>
-                    <td>react</td>
+                    <td>html</td>
+                    <td>CSS</td>
                 </tr>
             </tbody>
         </table>
+        <br>
+        <hr>
     </section>
     <br>
     <br>
+    <!--this is the footer-->
     <footer>
         <p>2022 welcom. All rights reserved.</p>
         <a href="https://gomycode.com/TN-FR/home">visit gomycode</a>
